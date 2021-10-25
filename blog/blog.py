@@ -19,4 +19,8 @@ class Blog:
 
 
     def json(self):
-        pass
+        return {
+            'title': self.title,
+            'author': self.author,
+            'posts': [post.json() for post in self.posts]
+        }

@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f9c327-2b64-4834-9fd8-40f0b1d25cd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/integration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration/test_blog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/test_blog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/test_post.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/post.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/post_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/test_blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration/test_blog.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
