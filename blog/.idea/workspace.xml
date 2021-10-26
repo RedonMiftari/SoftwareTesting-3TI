@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f9c327-2b64-4834-9fd8-40f0b1d25cd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/system/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/system/test_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/system/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/system/test_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_app.AppTest.test_print_blogs">
+  <component name="RunManager" selected="Python tests.Python tests for test_app.AppTest.test_print_pist">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,7 +63,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_app.AppTest.test_print_blogs" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_app.AppTest.test_ask_create_blog" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,81 +73,81 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_app.AppTest.test_print_blogs&quot;" />
+      <option name="_new_target" value="&quot;test_app.AppTest.test_ask_create_blog&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_blog.Blog_Test.test_create_post_in_blog (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_app.AppTest.test_ask_read_blog" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_blog.Blog_Test.test_create_post_in_blog&quot;" />
+      <option name="_new_target" value="&quot;test_app.AppTest.test_ask_read_blog&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_blog.Blog_Test.test_create_post_in_blog" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_app.AppTest.test_menu_calls_print_blogs" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_blog.Blog_Test.test_create_post_in_blog&quot;" />
+      <option name="_new_target" value="&quot;test_app.AppTest.test_menu_calls_print_blogs&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_blog.Blog_Test.test_repr_multiple_posts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_app.AppTest.test_print_pist" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_blog.Blog_Test.test_repr_multiple_posts&quot;" />
+      <option name="_new_target" value="&quot;test_app.AppTest.test_print_pist&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_app.AppTest.test_print_posts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_app.AppTest.test_print_posts&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python tests.Python tests for test_blog.Blog_Test.test_create_post_in_blog" />
-      <item itemvalue="Python tests.Python tests for test_blog.Blog_Test.test_create_post_in_blog (1)" />
-      <item itemvalue="Python tests.Python tests for test_blog.Blog_Test.test_repr_multiple_posts" />
-      <item itemvalue="Python tests.Python tests in tests" />
-      <item itemvalue="Python tests.Python tests for test_app.AppTest.test_print_blogs" />
+      <item itemvalue="Python tests.Python tests for test_app.AppTest.test_menu_calls_print_blogs" />
+      <item itemvalue="Python tests.Python tests for test_app.AppTest.test_ask_create_blog" />
+      <item itemvalue="Python tests.Python tests for test_app.AppTest.test_ask_read_blog" />
+      <item itemvalue="Python tests.Python tests for test_app.AppTest.test_print_posts" />
+      <item itemvalue="Python tests.Python tests for test_app.AppTest.test_print_pist" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_app.AppTest.test_print_blogs" />
-        <item itemvalue="Python tests.Python tests in tests" />
-        <item itemvalue="Python tests.Python tests for test_blog.Blog_Test.test_create_post_in_blog (1)" />
-        <item itemvalue="Python tests.Python tests for test_blog.Blog_Test.test_create_post_in_blog" />
-        <item itemvalue="Python tests.Python tests for test_blog.Blog_Test.test_repr_multiple_posts" />
+        <item itemvalue="Python tests.Python tests for test_app.AppTest.test_print_pist" />
+        <item itemvalue="Python tests.Python tests for test_app.AppTest.test_print_posts" />
+        <item itemvalue="Python tests.Python tests for test_app.AppTest.test_ask_read_blog" />
+        <item itemvalue="Python tests.Python tests for test_app.AppTest.test_menu_calls_print_blogs" />
+        <item itemvalue="Python tests.Python tests for test_app.AppTest.test_ask_create_blog" />
       </list>
     </recent_temporary>
   </component>
