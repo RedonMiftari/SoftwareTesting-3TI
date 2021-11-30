@@ -36,6 +36,25 @@ def print_blogs():
     for key, blog in blogs.items():
         print('- {}'.format(blog))
 
+
+
+
+#Gaat een blog titel aanvragen een post aanmaken
+def ask_read_blog():
+    title = input('Enter blog title: ')
+
+    print_posts(blogs[title])
+
+#Posts in blogs printen, gebruikt in ask_read_blog()
+def print_posts(blog):
+    for post in blog.posts:
+        print_post(post)
+
+#Posts printen met titel en content
+def print_post(post):
+    print(POST_TEMPLATE.format(post.title, post.content))
+
+#Gaat een blog aanmaken met titel en autheur naam
 def ask_create_blog():
 
     #Eerste side_effect (zie test_app)
@@ -46,18 +65,10 @@ def ask_create_blog():
 
     blogs[title] = Blog(title, author)
 
-def ask_read_blog():
-    title = input('Enter blog title: ')
-
-    print_posts(blogs[title])
-
-def print_posts(blog):
-    for post in blog.posts:
-        print_post(post)
-
-def print_post(post):
-    print(POST_TEMPLATE.format(post.title, post.content))
-
-
+#Gaat een blog titel aanvragen een post aanmaken met een specifieke titel
 def ask_create_post():
-    pass
+    blog_name = input('Enter blog title you want to write a post in: ')
+    title = input('Enter your post title: ')
+    content = input('Enter your post content: ')
+
+    blogs[blog_name].create_post(title, content)
