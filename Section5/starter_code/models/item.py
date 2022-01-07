@@ -1,4 +1,4 @@
-from db import db
+from starter_code.db import db
 
 
 class ItemModel(db.Model):
